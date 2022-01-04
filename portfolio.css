@@ -52,7 +52,7 @@ section{
 
 .pic1 {
     width: 25%;
-    max-width: 27%
+    max-width: 27%;
     float: left;
     height: 250px;
     align-content: center;
@@ -62,7 +62,7 @@ section{
 
 .pic2 {
     width: 25%;
-    max-width: 35%
+    max-width: 35%;
     float: right;
     height: 250px;
     align-content: center;
