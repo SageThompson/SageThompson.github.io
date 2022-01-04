@@ -52,7 +52,8 @@ section{
 
 .pic1 {
     width: 25%;
-    max-width: 27%;
+    max-width: 25%;
+    min-width: 25%
     float: left;
     height: 250px;
     align-content: center;
@@ -63,6 +64,7 @@ section{
 .pic2 {
     width: 25%;
     max-width: 35%;
+    min-width: 25%
     float: right;
     height: 250px;
     align-content: center;
@@ -145,12 +147,12 @@ h4, em {
 }
 
 p {
-    background-color: dimgrey;
+    background-color: darkgrey;
     color: black;
 }
 
 li, ul.seventy {
-    background-color: dimgrey;
+    background-color: darkgrey;
     color: black; 
 }
 
