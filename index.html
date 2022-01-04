@@ -1,47 +1,40 @@
 <!DOCTYPE html>
-<html lang = "en">
+<hmtl lang="en">
     <head>
-        <title>Quote Generator</title>
-        <link href="posgen.css" rel = "stylesheet">
-        <script src="posgen.js" defer></script>
+        <title>Sage's Portfolio</title>
+        <link href="portfolio.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>Quote Generator</h1>
-        </header>
-        <section>
-            <grid>
-                <h2 class = "PQuotes">Positive Quote Generator</h2>
-            </grid>
-            <grid>
-                <p>From a selection of 50 Quotes based around positivity from all corners of the web</p>
-            </grid>
-            <div class= "body">
-                <div><button type="button" onclick="PosGen()">Generate!</button></div>
-                <div><p class = "box" id="pos"> Press the button! </p></div>
+        <div class="navbar">
+            <a href="about.html"><i class="about"></i>About</a>
+            <a href="https://www.linkedin.com/in/sageathompson/"><i class="linkedIn"></i>LinkedIn</a>
+            <a href="https://docs.google.com/document/d/1Y1pFhJjCk3x96riz0tY4rCyUZ86bF-vWFBcyITS0CSs/edit?usp=sharing"><i class="resume"></i>Resume</a>
+            <a href="https://github.com/SageThompson"><i class="github"></i>Github</a>
+            <a class="active" href="#"><i class="home"></i>Home</a>
+        </div>
+        <h2>Sage Thompson</h2>
+        <section class="body">
+            <div>
+                <h4>Computer Science Major at Rutgers University</h4>
+                <h4>A.S in Computer Science</h4>
+                <br>
+                <img src="pic1.jpeg" alt="grad pic" class="pic1">
+                <img src="pic2.jpeg" alt="grad pic" class="pic2">
             </div>
-            <grid>
-                <p>To inspire positivity in your day even   during the darkest of times</p>
-            </grid>
-        </section>
-        <br>
-        <section>
-            <grid>
-                <h2 class = "MQuotes">Motivational Quote Generator</h2>
-            </grid>
-            <grid>
-                <p>From a selection of 50 Quotes just for motivational purposes</p>
-            </grid>
-            <div class= "body">
-                <div><button type="button" onclick="MovGen()">Generate!</button></div>
-                <div><p class = "box" id="mov"> Press the button! </p></div>
+            <br>
+            <div>
+                <p class="overview">As I make progress through school as a Computer Science Major, I hope to hone my skills as problem solver, developer and as an engineer. Curently seeking Computer Science related internships to develop and learn skills to build a foundation within the industry</p>
             </div>
-            <grid>
-                <p>Providing motivation on the days you need an extra push</p>
-            </grid>
+            <h3>Projects</h3>
+            <div>
+                <iframe src="quotegenerator.html" title="Quote Generator" ></iframe>
+                <a href="quotegenerator.html" target="_blank">Visit Quote Generator</a>
+                <div class="quotegen">
+                    <p>Objective: Generates quotes randomly from a selected collected when button is clicked</p>
+                    <p>Reason: Promotion, development and enhancement of mental health wellbeing.</p>
+                    <p>Used: HTML, CSS, Javascript</p>
+                </div>
+            </div>
         </section>
-        <footer>
-            <p><small>Copyright &copy;2021 Sage Thompson <a href="https://www.linkedin.com/in/sage-thompson-867363222/"><img src="linkedinLogo.jpeg" alt="linkedin logo"></a></small></p>
-        </footer>
     </body>
-</html>
+</hmtl>

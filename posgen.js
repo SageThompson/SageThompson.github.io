@@ -9,9 +9,9 @@ const posQuotes = ["Say something positive, and you\'ll see something positive",
                  "You do not find the happy life. You make it",
                  "Those who don\'t believe in magic will never find it"];
 
-var pIndex = Math.floor(Math.random() * 5);
 
 function PosGen() {
+    var pIndex = Math.floor(Math.random() * 5);
     document.querySelector("#pos").innerHTML = posQuotes[pIndex];
     var txt = document.getElementById('pos');
     var style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
@@ -27,10 +27,11 @@ const movQuotes = ["Life is 10% what happens to you and 90% how you react to it.
                  "Set your goals high, and don't stop till you get there.",
                  "Happiness is not a goal; it is a by-product."];
 
-var mIndex = Math.floor(Math.random() * 5);
-
+document.getElementById("mov").addEventListener("click", MovGen);
+                        
 function MovGen() {
-    document.querySelector("#mov").innerHTML = movQuotes[mIndex];
+    var mIndex = Math.floor(Math.random() * 5);
+    document.getElementById("mov").innerHTML = movQuotes[mIndex];
     var txt = document.getElementById('mov');
     var style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
     var currentSize = parseFloat(style);
