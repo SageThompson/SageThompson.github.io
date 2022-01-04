@@ -51,7 +51,8 @@ section{
 }
 
 .pic1 {
-    width: 32%;
+    width: 25%;
+    max-width: 27%
     float: left;
     height: 250px;
     align-content: center;
@@ -60,7 +61,8 @@ section{
 }
 
 .pic2 {
-    width: 35%;
+    width: 25%;
+    max-width: 35%
     float: right;
     height: 250px;
     align-content: center;
@@ -70,6 +72,9 @@ section{
 
 .overview {
     clear: both;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 iframe {
@@ -129,8 +134,10 @@ ul.seventy {
 }
 
 .explain {
-    width: 100%;
+    width: 80%;
     height: 200px;
+    margin-left: 10%;
+    margin-right: 10%
 }
 
 h4, em {
@@ -150,6 +157,7 @@ li, ul.seventy {
 .quotegen {
     padding-top: 20px;
     text-align: left;
-    width: 100%;
+    width: 80%;
     clear: both;
+    margin-right: 10%;
 }
